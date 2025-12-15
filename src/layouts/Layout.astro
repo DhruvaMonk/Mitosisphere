@@ -548,6 +548,7 @@ const { title } = Astro.props;
   .section-title {
     text-align: center;
     margin-bottom: 60px;
+    margin-left: 80px;
   }
 
   .section-title h2 {
@@ -904,6 +905,11 @@ const { title } = Astro.props;
     gap: 40px;
     max-width: 1000px;
     margin: 0 auto;
+    justify-items: center;
+  }
+  
+  .partners-grid .partner-card:last-child:nth-child(4) {
+  grid-column: 2;  /* Center the 4th card in middle column */
   }
 
   .partner-card {
